@@ -9,5 +9,5 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base: "/portfolio-V2/"
+  base: "/kyurijung.github.io/"
 })
