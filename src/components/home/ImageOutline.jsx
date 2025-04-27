@@ -37,7 +37,7 @@ function ImageOutline({ imageName, width }) {
       <div className="border-4 border-primary h-fit -mr-3 -mb-3" style={{ width: `${width}rem` }}>
         <img
           className="w-full relative right-3 bottom-3"
-          src={`/src/assets/images/${imageName}.png`}
+          src={import.meta.env.BASE_URL + `/src/assets/images/${imageName}.png`}
         />
       </div>
     </div>
