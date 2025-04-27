@@ -8,6 +8,5 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss()
-  ],
-  base: "/kyurijung.github.io/"
+  ]
 })
