@@ -30,4 +30,3 @@ cd kyurijung.github.io
 npm install
 npm run dev
 ```
-Access at: http://localhost:5173
