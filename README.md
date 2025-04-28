@@ -6,7 +6,7 @@
 
 My portfolio website built with React + Tailwind and Vite.
 
-![Project Screenshot](/assets/images/Thumbnail.jpg)
+![Project Screenshot](/public/assets/images/Thumbnail.jpg)
 
 ## ✨ Key Features
 
