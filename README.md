@@ -8,14 +8,6 @@ My portfolio website built with React + Tailwind and Vite.
 
 ![Project Screenshot](/public/assets/images/Thumbnail.jpg)
 
-## ✨ Key Features
-
-| Feature             | Description                                               |
-|---------------------|---------------------------------------------------------- |
-| 🎨 Design System    | Tailwind CSS with custom design tokens                    |
-| 📱 Fully Responsive | Mobile-first layouts with responsive breakpoints          |
-| 🌓 Dark Mode        | Toggle dark/light theme                                   |
-
 ## 🚀 Quick Start
 
 ### Prerequisites
