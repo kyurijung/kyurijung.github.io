@@ -9,10 +9,9 @@
             "tech": [
                 "C++",
                 "Qt",
-                "SQL",
-                "Qt Creator"
+                "SQL"
             ],
-            "description": "Developed a heart rate monitor software with Qt and SQL, integrating real-time biofeedback to measure, analyze, and display elaborate heart rate variability patterns"
+            "description": "Built a real-time heart rate monitoring app using Qt and SQL, outlining use cases with UML and sequence diagrams and applying an observer pattern to visualize and store detailed HRV data"
         },
         {
             "title": "OrderUp",
@@ -20,13 +19,12 @@
             "imageWidth": 21,
             "url": "https://github.com/kyurijung/orderup",
             "tech": [
-                "JavaScript",
                 "Node.js",
-                "HTML",
+                "Express.js",
                 "CSS",
                 "MongoDB"
             ],
-            "description": "Created a food ordering web app with JavaScript and HTML to execute user logins, display menus, and order items, alongside CSS to enhance UI designs"
+            "description": "Engineered a full-stack food ordering web app using Node.js, Express.js, MongoDB and by implementing a secure and scalable REST API, supporting user logins, menu displays, and order requests"
         },
         {
             "title": "EasyCart",
@@ -38,7 +36,7 @@
                 "JavaFX",
                 "Figma"
             ],
-            "description": "Developed a desktop shopping cart app, using Java and JavaFX to implement menu displays, calculations, and item orders"
+            "description": "Designed and developed a desktop shopping cart app using Figma, Java, and JavaFX, leveraging object-oriented patterns and event-driven programming for dynamic menus, calculations, and real-time updates"
         }
     ]
 }

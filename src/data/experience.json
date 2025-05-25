@@ -10,7 +10,16 @@
                     "dates": "January 2024 - Present",
                     "points": [
                         {
-                            "description": "Client Engineer for the Max streaming app on Roku, building engaging experiences for 120M+ global subscribers"
+                            "description": "Spearheaded development of profile demographics and parental controls for HBO Max, refining requirements and coordinating architecture across teams to enhance personalized content for 48M+ Roku users"
+                        },
+                        {
+                            "description": "Engineered account-sharing functionality using BrightScript and SceneGraph to promote standalone subscriptions through extra member accounts and profile migration services, contributing to $40M+ in projected annual revenue growth"
+                        },
+                        {
+                            "description": "Implemented linear TV support with expanding display rails for channels and playback controls, driving real-time engagement for 11M+ European subscribers during live streaming of the Paris 2024 Olympics"
+                        },
+                        {
+                            "description": "Mitigated SEV-1 incidents during 24/7 on-call rotations by triaging Grafana logs and deploying critical hotfixes, maintaining a 98%+ error-free session rate and minimizing user disruptions"
                         }
                     ]
                 },
@@ -19,13 +28,34 @@
                     "dates": "May 2022 - August 2022",
                     "points": [
                         {
-                            "description": "Optimized HBO Max app's accessibility and player controls by developing and refactoring the You.i One Engine's React Native and Swift API, boosting stability and performance by 30%"
+                            "description": "Resolved playback controls and accessibility bugs on HBO Max using React Native and Swift APIs, improving player stability for 16M+ Apple TV users"
                         },
                         {
-                            "description": "Automated acceptance testing prior to product deployment by implementing integration and unit tests, effectively reducing 40% of manual testing"
+                            "description": "Expanded integration and unit test coverage by 7% across core components using Jest and GTest, enabling earlier regression detection and reducing downstream QA bug reports"
                         },
                         {
-                            "description": "Published documentation about new or upgraded features with specifications and guidelines, for 600+ engineers to reference during future development"
+                            "description": "Authored technical documentation for architecture and function specs in Confluence and codebase READMEs, bridging knowledge gaps across a 20+ developer team"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "Innovation Hub at Carleton University",
+            "url": "https://carleton.ca/innovationhub/",
+            "roles": [
+                {
+                    "title": "Business Strategy Consultant",
+                    "dates": "January 2023 - April 2023",
+                    "points": [
+                        {
+                            "description": "Led a consulting initiative for a marketing agency, advising on B2B outreach and consumer growth approaches through targeted digital campaigns and strategic partnerships that reached 2.5K+ end users"
+                        },
+                        {
+                            "description": "Conducted quantitative market research and competitive analysis to uncover high-impact expansion opportunities and inform actionable, data-driven recommendations aligned with client goals"
+                        },
+                        {
+                            "description": "Delivered a branded client proposal presentation, ranked top among peer teams and adopted by the client for its strategic fit, operational viability, and measurable ROI"
                         }
                     ]
                 }
@@ -40,13 +70,13 @@
                     "dates": "January 2021 - April 2021",
                     "points": [
                         {
-                            "description": "Customized client-side web parts and their layouts for the organization's intranet by using SPFx, CSS, and third-party widgets, increasing site engagement for 200+ employees"
+                            "description": "Developed custom web components and responsive layouts using SPFx framework, CSS, and open-source widgets, enhancing intranet usability and visual clarity for 500+ employees"
                         },
                         {
-                            "description": "Migrated content from the former site onto the renewed SharePoint platform by sorting and filtering relevant subjects, expediting transfer speeds by 2x"
+                            "description": "Migrated 200+ bilingual pages to SharePoint, leveraging Excel sorting and filtering functions to track progress, maintaining a well-documented workflow for efficient cross-team collaboration"
                         },
                         {
-                            "description": "Hosted live tutorial sessions demonstrating the creating and editing of site pages, training 30+ web editors to adopt the new platform"
+                            "description": "Led weekly live training sessions on content management workflows, accelerating platform onboarding for 60+ web editors and reducing post-launch support requests"
                         }
                     ]
                 }
@@ -61,7 +91,7 @@
                     "dates": "September 2021 - April 2022",
                     "points": [
                         {
-                            "description": "Produced graphics adhering to GDSC's brand theme by using Photoshop and Canva to generate templates and posts for social media, targeting students interested in tech"
+                            "description": "Designed GDSC branded graphics and digital content using Photoshop and Canva, driving engagement with 400+ tech-focused students across social media platforms"
                         }
                     ]
                 }
@@ -72,11 +102,26 @@
             "url": "https://technolgap.org/",
             "roles": [
                 {
-                    "title": "Student Mentor",
+                    "title": "Mentor",
                     "dates": "August 2020 - April 2021",
                     "points": [
                         {
-                            "description": "Mentored incoming women in Computer Science with supportive tutoring and valuable career insights, guiding them through a successful first year in the program"
+                            "description": "Mentored 30+ incoming computer science students, offering academic support and career guidance to foster community and boost engagement among women in tech"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "JA Company Program",
+            "url": "https://jasab.ca/programs/details/company-program-after-school.html/",
+            "roles": [
+                {
+                    "title": "Sales & Production",
+                    "dates": "October 2016 - March 2017",
+                    "points": [
+                        {
+                            "description": "Co-founded an art-therapy journal startup with business advisors and a 20+ member cross-functional team, exceeding profit projections by 20% through strategic marketing initiatives and revenue-driving tradeshow sales"
                         }
                     ]
                 }
