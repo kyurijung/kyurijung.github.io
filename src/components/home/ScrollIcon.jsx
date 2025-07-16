@@ -45,7 +45,7 @@ function ScrollIcon() {
       className={`absolute left-1/2 -translate-x-1/2 top-[90%] transition-opacity duration-300 ${isVisible ? "opacity-100" : "opacity-0"}`}
     >
       {/* Double angle-down icon with hover effects */}
-      <FontAwesomeIcon icon={faAnglesDown} className="fa-3x text-primary hover:text-secondary transition" />
+      <FontAwesomeIcon icon={faAnglesDown} className="fa-3x text-primary hover:text-tertiary transition" />
     </a>
   );
 }

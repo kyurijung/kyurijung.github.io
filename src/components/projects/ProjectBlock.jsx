@@ -62,14 +62,14 @@ function ProjectBlock({
           href={repoUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 text-primary hover:text-secondary transition"
+          className="flex items-center gap-2 text-subheading1Color hover:text-tertiary transition"
         >
           {/* Project title and link to repo */}
-          <h2 className="text-subheading1 font-bold">{title}</h2>
+          <h2 className="text-subheading1Size font-bold">{title}</h2>
           <FontAwesomeIcon icon={faLink} size="lg" />
         </a>
 
-        <div className="flex flex-wrap gap-2 text-subheading2 font-bold text-secondary">
+        <div className="flex flex-wrap gap-2 text-subheading2Size font-bold text-subheading2Color">
           {/* Dynamically render project's tech-stack */}
           {techStack.map((tech, index) => (
             <React.Fragment key={tech}>
@@ -81,7 +81,7 @@ function ProjectBlock({
 
         {/* Project description in bullet-point format */}
         <ul className="mt-2 list-disc pl-5">
-          <li className="text-primary text-body2">
+          <li className="text-body2Color text-body2Size">
             {description}
           </li>
         </ul>

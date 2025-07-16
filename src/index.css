@@ -6,21 +6,72 @@
         scroll-behavior: smooth;
     }
     body {
-        background-color: var(--color-background);
+        background-color: var(--background);
     }
 }
 
 /* Design tokens */
 @theme {
-    --color-background: #F2ECE7;
-    --color-primary: #1A274B;
-    --color-secondary: #A94D0F;
+    --color-background: var(--background);
+    --color-primary: var(--primary);
+    --color-secondary: var(--secondary);
+    --color-tertiary: var(--tertiary);
 
-    --text-heading: 40px;
-    --text-subheading1: 25px;
-    --text-subheading2: 20px;
-    --text-subheading3: 18px;
-    --text-body1: 18px;
-    --text-body2: 16px;
-    --text-caption: small;
+    --color-greetingColor: var(--greetingColor);
+    --color-nameColor: var(--nameColor);
+    --color-titleColor: var(--titleColor);
+    --color-headingColor: var(--heading);
+    --color-subheading1Color: var(--subheading1);
+    --color-subheading2Color: var(--subheading2);
+    --color-subheading3Color: var(--subheading3);
+    --color-body1Color: var(--body1);
+    --color-body2Color: var(--body2);
+    --color-captionColor: var(--caption);
+
+    --text-greetingSize: 25px;
+    --text-nameSize: 130px;
+    --text-titleSize: 30px;
+    --text-headingSize: 40px;
+    --text-subheading1Size: 25px;
+    --text-subheading2Size: 20px;
+    --text-subheading3Size: 18px;
+    --text-body1Size: 18px;
+    --text-body2Size: 16px;
+    --text-captionSize: small;
+}
+
+:root {
+    --background: #F2ECE7;
+    --primary: #1A274B;
+    --secondary: #A94D0F;
+    --tertiary: #A94D0F;
+
+    --greetingColor: #1A274B;
+    --nameColor: #1A274B;
+    --titleColor: #A94D0F;
+    --heading: #1A274B;
+    --subheading1: #1A274B;
+    --subheading2: #A94D0F;
+    --subheading3: #A94D0F;
+    --body1: #1A274B;
+    --body2: #1A274B;
+    --caption: #1A274B;
+}
+
+.dark {
+    --background: #031528;
+    --primary: #82aaff;
+    --secondary: #c792ea;
+    --tertiary: #d4d4d4;
+
+    --greetingColor: #82aaff;
+    --nameColor: #82aaff;
+    --titleColor: #c792ea;
+    --heading: #c792ea;
+    --subheading1: #ce9178;
+    --subheading2: #6A9955;
+    --subheading3: #6A9955;
+    --body1: #d4d4d4;
+    --body2: #d4d4d4;
+    --caption: #c792ea;
 }

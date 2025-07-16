@@ -22,7 +22,7 @@ function Projects() {
   return (
     <div id="projects" className="scroll-mt-18 pt-10 pb-15">
       {/* Section heading */}
-      <h2 className="ml-40 mb-15 text-heading font-bold text-primary leading-none">{data.sectionName}</h2>
+      <h2 className="ml-40 mb-15 text-headingSize font-bold text-headingColor leading-none">{data.sectionName}</h2>
 
       <section className="ml-52 space-y-15">
         {/* Dynamically render each project with image and repo link */}

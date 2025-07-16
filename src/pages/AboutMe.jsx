@@ -22,12 +22,12 @@ function AboutMe() {
   return (
     <div id="about" className="scroll-mt-18 pt-10 pb-15">
       {/* Section heading */}
-      <h2 className="ml-40 mb-7 text-heading font-bold text-primary leading-none">{data.sectionName}</h2>
+      <h2 className="ml-40 mb-7 text-headingSize font-bold text-headingColor leading-none">{data.sectionName}</h2>
 
       <div className="ml-48 flex items-center justify-between w-225">
         {/* Bio */}
         <div className="w-120">
-          <text className="text-body1 text-primary">
+          <text className="text-body1Size text-body1Color">
             {data.career}
             <br />
             <br />

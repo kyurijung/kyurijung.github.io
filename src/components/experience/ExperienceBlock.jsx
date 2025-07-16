@@ -45,9 +45,9 @@ function ExperienceBlock({
         href={url}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex items-center gap-2 text-primary hover:text-secondary transition leading-none"
+        className="flex items-center gap-2 text-subheading1Color hover:text-tertiary transition leading-none"
       >
-        <h2 className="text-subheading1 font-bold">{company}</h2>
+        <h2 className="text-subheading1Size font-bold">{company}</h2>
         <FontAwesomeIcon icon={faLink} size="lg" />
       </a>
 
@@ -57,14 +57,14 @@ function ExperienceBlock({
 
           {/* Role Title and Dates */}
           <div className="flex items-baseline justify-between w-225">
-            <h3 className="text-subheading2 font-bold text-secondary">{role.title}</h3>
-            <h3 className="text-subheading3 font-medium text-primary">{role.dates}</h3>
+            <h3 className="text-subheading2Size font-bold text-subheading2Color">{role.title}</h3>
+            <h3 className="text-subheading3Size font-medium text-subheading3Color">{role.dates}</h3>
           </div>
 
           {/* Role Description Points */}
           <ul className="ml-4 mt-2 space-y-1 list-disc pl-5 w-213">
             {role.points.map((point, pointIndex) => (
-              <li key={pointIndex} className="text-body2 text-primary">
+              <li key={pointIndex} className="text-body2Size text-body2Color">
                 {point.description}
               </li>
             ))}

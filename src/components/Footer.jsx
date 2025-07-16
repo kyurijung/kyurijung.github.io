@@ -21,10 +21,10 @@ function Footer() {
   return (
     <div className="pt-5 flex justify-end h-25">
       {/* Horizontal line above footer text */}
-      <hr className="absolute left-1/2 -translate-x-1/2 w-[75%]"></hr>
+      <hr className="absolute left-1/2 -translate-x-1/2 w-[75%] text-primary"></hr>
 
       {/* Footer text */}
-      <p className="absolute pt-3 pr-[13%] text-caption text-primary">
+      <p className="absolute pt-3 pr-[13%] text-captionSize text-captionColor">
         © {footer.year}{' '}
         <a
           href={footer.url}
